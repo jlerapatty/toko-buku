@@ -167,7 +167,19 @@ main {
 }
 
 .menu-card-title,
-.book-table-title {
+.book-table-title
+{
   margin-bottom: 50px;
   text-align: center;
+}
+
+.menu-card .card-img-top {
+    max-height: 250px;
+    object-fit: cover;
+
+}
+
+.register-h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
